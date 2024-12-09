@@ -1,0 +1,185 @@
+.reservation {
+    margin-top: 90px;
+    margin-left: 2px;
+    position: relative;
+}
+
+.background {
+    width: 80%; 
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.content {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    column-gap: 20px; 
+    position: absolute;
+    top: 15%;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    padding: 0 20px;
+    color: white;
+}
+
+.text-rec {
+    grid-column: 1; 
+    z-index: 2;
+    margin-left: 80px;
+}
+
+.text-rec h4 {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Days One', sans-serif;
+}
+
+.text-rec h2 {
+    margin: 5px 0 0;
+    font-size: 28px;
+    font-family: 'Days One', sans-serif;
+    width: 500px;
+}
+
+.text-rec p {
+    width: 450px;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 50px;
+}
+
+
+.black-rectangle {
+    grid-column: 2;
+    width: 60%; 
+    height: 550px; 
+    max-height: 100%;
+    background-color: white;
+    border: 0.1px solid black;
+    align-self: center;
+    margin-left: 25%; 
+}
+
+.reservation-header {
+    display: flex;
+    align-items: center; 
+}
+
+.icon-l{
+    margin-right: 8px; 
+    color: white; 
+    font-size: 20px;
+}
+
+.allIcons {
+    display: flex;
+    flex-direction: column;
+}
+
+.iconWithLabel {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 14px; 
+}
+
+.iconWrapper {
+    width: 50px; 
+    height: 50px; 
+    background-color: #2B4448; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 10px; 
+}
+
+.locationIcon, .phoneIcon, .envelopeIcon {
+    font-size: 20px; 
+}
+
+.iconLabel {
+    font-size: 14px !important; 
+    color: white; 
+}
+
+.to-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.to-row h2, h6{
+    margin: 2px;
+    padding: 0;
+}
+
+.to-row h6{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+}
+
+.black-rectangle h1 {
+    color: violet;
+}
+
+.mid-rec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+}
+
+.mid-rec h1 {
+    font-size: 28px;
+    color: #2B4448;
+    font-family: 'Days One', sans-serif;
+}
+
+.reservation-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; 
+    width: 100%;
+    max-width: 300px; 
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+    font-family: 'Days One', sans-serif;
+}
+
+.form-input-big {
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    height: 120px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Days One', sans-serif;
+    resize: none;
+    overflow-y: auto; 
+    white-space: pre-wrap; 
+    word-wrap: break-word; 
+}
+
+.submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #2B4448; 
+    border: none;
+    cursor: pointer;
+    align-self: start;
+    font-family: 'Days One', sans-serif;
+}
+
+.submit-button:hover {
+    background-color: #1f3336; 
+}
